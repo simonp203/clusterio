@@ -39,7 +39,7 @@ Factorio*
 /config-controller.json
 /config-control.json
 /config-host.json
-pnpm-lock.yaml
+#pnpm-lock.yaml
 mod_cache.json
 /static/
 saves
