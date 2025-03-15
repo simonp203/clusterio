@@ -16,7 +16,7 @@
     #   pkgs.callPackage (import ./default.nix) {};
 
     devShells."x86_64-linux".default = pkgs.mkShell {
-      packages = [pkgs.pnpm];
+      packages = [pkgs.pnpm pkgs.nodejs];
     };
   };
 }
